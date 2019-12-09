@@ -23,7 +23,7 @@ before_install:
   - export PATH=~/.nimble/bin:$PATH
   - echo "export PATH=~/.nimble/bin:$PATH" >> ~/.profile
   - choosenim $CHANNEL
-  - nimble install nimpy
+  - nimble install -y nimpy
 
 install:
   - pip install .
